@@ -1,0 +1,40 @@
+<!--?xml version="1.0" encoding="UTF-8"?-->
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="white"></rect>
+
+  <!-- Logo Circle -->
+  <circle cx="512" cy="360" r="240" fill="#00A63E"></circle>
+
+  <!-- White Rays -->
+  <polygon points="512,320 462,610 562,610" fill="white"></polygon>
+  <polygon points="512,320 250,460 285,520" fill="white"></polygon>
+  <polygon points="512,320 340,650 410,720" fill="white"></polygon>
+  <polygon points="512,320 775,460 740,520" fill="white"></polygon>
+  <polygon points="512,320 685,650 615,720" fill="white"></polygon>
+
+  <!-- Flag Pole -->
+  <rect x="500" y="180" width="16" height="140" rx="8" fill="white"></rect>
+
+  <!-- Flag -->
+  <path d="
+    M516 200
+    C545 190, 565 215, 590 210
+    C615 205, 630 225, 655 235
+    C635 245, 620 265, 590 258
+    C560 250, 545 235, 516 242
+    Z
+  " fill="white"></path>
+
+  <!-- PI Text -->
+  <text x="512" y="610" font-family="Times New Roman, serif" font-size="120" fill="white" text-anchor="middle" font-weight="normal">
+    PI
+  </text>
+
+  <!-- Company Name -->
+  <text x="512" y="860" font-family="Montserrat, Arial, sans-serif" font-size="72" fill="#00A63E" text-anchor="middle" font-weight="700" letter-spacing="2">
+    PAZMAT INVESTMENTS
+  </text>
+
+</svg>
